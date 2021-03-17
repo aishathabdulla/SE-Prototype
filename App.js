@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Article from './components/article';
 import Feed from './components/feed';
 import DirectMessage from './components/directmessage';
-//import ReactCalendar from './components/calendar';
 import Navbar from './components/navbar'
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 class App extends Component{
   constructor(){
@@ -13,12 +14,14 @@ class App extends Component{
   render(){
     return (
       <div>
-        <div className = "container">
+       <div className = "container">
         <Navbar/>
+        <br/>
           <div className = "row">
             <div className = "col-sm-4">
-              <div> insert Calendar component</div>
-              <div> insert Forum component</div>
+              <div> <Calendar/></div>
+              <br/>
+              <div> <Forum/> </div>
             </div>
             <div className = "col-sm-8">
               <Feed/>
