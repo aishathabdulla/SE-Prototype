@@ -4,7 +4,10 @@ import Feed from './components/feed';
 import DirectMessage from './components/directmessage';
 import Navbar from './components/navbar';
 import Forum from './components/forum';
-import Calendar from 'react-calendar';
+import Calendar from 'react-calendar'; 
+
+//npm i react-calendar  
+// ^^ run that in your terminal and then --> npm start
 import 'react-calendar/dist/Calendar.css';
 
 class App extends Component{
