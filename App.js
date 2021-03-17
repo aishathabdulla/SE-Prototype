@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Article from './components/article';
 import Feed from './components/feed';
 import DirectMessage from './components/directmessage';
-import Navbar from './components/navbar'
+import Navbar from './components/navbar';
+import Forum from './components/forum';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
