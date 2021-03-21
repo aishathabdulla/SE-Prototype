@@ -9,6 +9,8 @@ import ForumPage from "./components/forumpage";
 import NewsPage from "./components/newspage";
 import CalendarPage from "./components/calendarpage";
 
+//run this command to install react router --> npm i react-router-dom --save
+
 class App extends Component{
   constructor(){
     super();
