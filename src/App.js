@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Article from './components/article';
-import Feed from './components/feed';
-import DirectMessage from './components/directmessage';
-import Navbar from './components/navbar';
-import Forum from './components/forum';
-import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+import Home from "./components/home";
+import ForumPage from "./components/forumpage";
+import NewsPage from "./components/newspage";
+import CalendarPage from "./components/calendarpage";
 
 class App extends Component{
   constructor(){
@@ -14,26 +16,25 @@ class App extends Component{
 
   render(){
     return (
-      <div>
-        <div className = "container">
-        <Navbar/>
-          <div className = "row">
-            <div className = "col-sm-4">
-              <div id="Calendar"> <Calendar/> </div>
-              <div id="Forum"> <Forum/></div>
-            </div>
-            <div className = "col-sm-8" id="News">
-              <Feed/>
-            </div>
-          </div>
-          <div className = "row">
-            <div className = "col-sm-8"></div>
-            <div className = "col-sm-4">
-              <DirectMessage/>
-            </div>
+      <HashRouter>
+        <div>
+          <h1>FDM</h1>
+          <ul className="header">
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/forumpage">Forum</NavLink></li>
+            <li><NavLink to="/newspage">News</NavLink></li>
+            <li><NavLink to="/calendarpage">Calendar</NavLink></li>
+            {/*<li><NavLink to="/updatepolicypage">Update Policy</NavLink></li>*/}
+          </ul>
+          <div className="content">
+            <Route exact path="/" component={Home}/>
+            <Route path="/forumpage" component={ForumPage}/>
+            <Route path="/newspage" component={NewsPage}/>
+            <Route path="/calendarpage" component={CalendarPage}/>
+            {/*<Route path="/updatepolicypage" component={Update Policy}/>*/}
           </div>
         </div>
-      </div>
+      </HashRouter>
     );
   }
 }
