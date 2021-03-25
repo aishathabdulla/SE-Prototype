@@ -1,0 +1,39 @@
+header {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+header li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+header ul li{
+    display: inline-block;
+    
+}
+header .navlogo{
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+header a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(90, 87, 87);
+}
+header ul li a:hover {
+    text-decoration: none;
+    color: rgb(117, 113, 113);
+}
+header button {
+   padding-left: 50px;
+}
+
+.dropdown {
+    margin-left: 60px;
+    margin-right: 0px;
+}
