@@ -26,7 +26,8 @@ class SendMessage extends Component {
             value={this.state.message}
             placeholder="message.."
             type="text"
-            className="form-control" />
+            className="form-control" 
+            required />
           <input type="submit" value="Send" />
         </div>
       </form>
