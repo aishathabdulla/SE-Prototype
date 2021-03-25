@@ -27,7 +27,8 @@ class SendMessage extends Component {
             placeholder="message.."
             type="text"
             className="form-control" 
-            required />
+            required 
+          />
           <input type="submit" value="Send" />
         </div>
       </form>
