@@ -1,0 +1,29 @@
+img{
+    height: 60px;
+}
+
+.icon{
+    display: inline-flex;
+    padding-right: 110px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.feed {
+    text-align: center;
+}
+
+#basic-navbar-nav{
+    text-decoration: none;
+    font-family:'Roboto Condensed', sans-serif;
+    color: rgb(90, 87, 87);
+    width: 100%;
+}
