@@ -1,9 +1,9 @@
 ## Getting Started
 > npm i
-/ install everything needed for the client
+<br>install everything needed for the client
 > cd SE-Server
 > npm i
-/ install everything needed for the server
+<br> install everything needed for the server
 
 > npm run server
 or
@@ -12,9 +12,9 @@ or
 ## Working on Client side
 > npm run start
 
-// develop the site
-// once finished
+<br>develop the site
+<br>once finished
 
 > npm run build
 
-// run server to use website.
+<br>run server to use website.

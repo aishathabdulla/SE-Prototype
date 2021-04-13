@@ -97,6 +97,10 @@ class Router_c extends Component {
   }
 
   render() {
+    const activeDms = localStorage.getItem("activeDms");
+    if (activeDms == undefined) {
+      localStorage.setItem("activeDms", "zoe-jane");
+    }
     const userType = localStorage.getItem("userType");
     const username = localStorage.getItem("username");
 
