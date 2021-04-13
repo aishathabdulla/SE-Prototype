@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
-import {render} from 'react-dom';
+import React, { Component } from "react";
 import Calendar from 'react-calendar';
-import { Button } from 'react-bootstrap';
-import 'react-calendar/dist/calendar.css';
-import './calendar.css';
+import 'react-calendar/dist/Calendar.css';
 
-const ReactCalendar = () => {
-  const [date, setDate] = useState(new Date());
-  const onChange = () => {
-    setDate(date);
-  }
+class calendar extends Component {
+  render() {
     return (
-      <div>
-        <Calendar onChange={onChange} value={date}/>
+      <div className="calCon">
+        <Calendar/>
       </div>
-    )
+    );
+  }
 }
 
-render(<ReactCalendar/>, document.querySelector("#root"));
+export default calendar;

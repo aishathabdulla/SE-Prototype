@@ -1,0 +1,20 @@
+{
+  "News": [
+    {
+      "title": "title 1",
+      "description": "this is my first news article"
+    },
+    {
+      "title": "title 2",
+      "description": "this is my second news article"
+    },
+    {
+      "title": "title 3",
+      "description": "This is a test article"
+    },
+    {
+      "title": "Title 4",
+      "description": "this is to show that article one doesn't show up"
+    }
+  ]
+}

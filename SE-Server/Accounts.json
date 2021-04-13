@@ -1,0 +1,38 @@
+{
+  "employees": [
+    {
+      "username": "Jane Doe",
+      "password": "123",
+      "email": "jane@gmail.com",
+      "userType": "standard",
+      "address": "avenu",
+      "city": "aaaaa",
+      "dob": "2021-04-24",
+      "postcode": "123 123",
+      "firstname": "Jane",
+      "surname": "Doe"
+    }
+  ],
+  "HR": [
+    {
+      "username": "Zoe Marvel",
+      "password": "secure123",
+      "userType": "advanced",
+      "firstname": "zoe",
+      "surname": "Marvel",
+      "email": "zoe@gmail.com",
+      "address": "avenu",
+      "city": "aaaaa",
+      "dob": "2021-04-24",
+      "postcode": "123 123"
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "userType": "admin"
+    }
+  ]
+}
