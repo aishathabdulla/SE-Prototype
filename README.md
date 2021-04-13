@@ -1,8 +1,12 @@
 ## Getting Started
 > npm i
+
 <br> install everything needed for the client
+
 <br> > cd SE-Server
+
 <br> > npm i
+
 <br> install everything needed for the server
 
 <br> > npm run server<br>
