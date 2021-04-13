@@ -96,6 +96,7 @@ class AskQuestion extends Component {
     const DoB = localStorage.getItem("DoB");
     const email = localStorage.getItem("email");
     const address = localStorage.getItem("address");
+    const city = localStorage.getItem("city");
     const postcode = localStorage.getItem("postcode");
 
     return (
@@ -106,6 +107,7 @@ class AskQuestion extends Component {
         <p>Email: {email}</p>
         <p>Address: {address}</p>
         <p>Postcode: {postcode}</p>
+        <p>City: {city}</p>
       </div>
     )
   }
