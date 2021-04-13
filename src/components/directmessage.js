@@ -88,7 +88,7 @@ class DirectMessage extends Component {
     const message = document.getElementsByClassName("messageContent")[0].value;
     const time = new Date();
     const timedate = `${time.getHours()}:${time.getMinutes()}`;
-    const author = localStorage.getItem("firstname");
+    const author = localStorage.getItem("firstname").toLowerCase();
     const sender = localStorage.getItem("activeDms").split("-")[1]
     axios.post("http://localhost:8080/api/sendMessage", {
       messageTO: sender,

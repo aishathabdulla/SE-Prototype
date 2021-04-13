@@ -50,7 +50,7 @@ class Calendar_P extends Component {
       user: username,
       date: fullDate
     }).then((response) => {
-      window.location.href = "http://localhost:8080/requestHoliday"
+      window.location.href = "http://localhost:8080/calendar"
     })
   }
 
@@ -69,7 +69,7 @@ class Calendar_P extends Component {
       status: "accepted",
       name: holiday.name
     }).then((response) => {
-      window.location.href = "http://localhost:8080/requestHoliday"
+      window.location.href = "http://localhost:8080/calendar"
     })
   }
 
@@ -79,7 +79,7 @@ class Calendar_P extends Component {
       status: "rejected",
       name: holiday.name
     }).then((response) => {
-      window.location.href = "http://localhost:8080/requestHoliday"
+      window.location.href = "http://localhost:8080/calendar"
     })
   }
 
