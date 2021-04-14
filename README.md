@@ -1,24 +1,7 @@
-## Getting Started
-> npm i
-
-<br> install everything needed for the client
-
-<br> > cd SE-Server
-
-<br> > npm i
-
-<br> install everything needed for the server
-
-<br> > npm run server<br>
-<br> or
-<br> > node index.js
-
-## Working on Client side
-> npm run start
-
-<br>develop the site
-<br>once finished
-
-<br>> npm run build
-
-<br>run server to use website.
+## Getting started
+> npm i 
+<br> do this in both this directory and SE-Server/. Then run
+> npm run build
+<br> in the working directory once done run the server file using:
+> node index.js or npm run serve
+<br><br>Link: https://github.com/aishathabdulla/SE-Prototype
